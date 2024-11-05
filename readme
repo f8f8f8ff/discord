@@ -1,0 +1,17 @@
+go install github.com/f8f8f8ff/discord/discordsend@latest
+
+Usage of discordsend:
+  -content string
+    	REQUIRED. also read from stdin
+  -ping
+    	ping @everyone
+  -status string
+    	one of info, warning, error. [DISCORD_STATUS]
+  -time
+    	include timestamp at start of message (default true)
+  -title string
+    	optional title for message. [DISCORD_TITLE]
+  -url string
+    	REQUIRED: discord webhook url [DISCORD_HOOK_URL]
+  -username string
+    	override username. [DISCORD_USERNAME]
