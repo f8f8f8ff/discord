@@ -76,9 +76,9 @@ func main() {
 		body += time.Now().Format(time.DateTime)
 	}
 	if ping {
-		body += " @everyone\n"
+		body += " @everyone"
 	}
-	body += status
+	body += "\n" + status
 
 	m := discord.Message{
 		Url:      url,
